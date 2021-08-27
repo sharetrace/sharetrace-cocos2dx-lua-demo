@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		65F14A12AC224C21A64CC80F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 60AF99A241E7475492BBD528 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3EFB1CD96C7D04CD2BE7C780 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A14EEE53B5744AF1BB6955A9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F019913D057F4B0EAC5585D5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B71F6F307E47C01080580445 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				3566808BC59F4A03B3421023 /* PBXTargetDependency */,
+				702878366760447A9B4964D9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		077E676F9E844BB096061208 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */ = {isa = PBXBuildFile; fileRef = 6FB88C42E44F458DA4F0F81C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */; };
+		386D1BA8A82342E8B3D7A0C0 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */ = {isa = PBXBuildFile; fileRef = D42A5B4319234D50AADEBC4D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */; };
+		7E89AAFA52C54B55B4E46887 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A79FBAC1C43E4EC593988544 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */; };
+		B5BD9763860B42A3A5976E63 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */ = {isa = PBXBuildFile; fileRef = C136C1A7327A40478AA37AFD /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */; };
+		D384A9A0307D465F86545248 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */ = {isa = PBXBuildFile; fileRef = DED5EE4904404AF9A20F58CB /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */; };
+		F2A6B6AF83C44363ADDBF0FD /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 0C9BACB276694672A4B5C69C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */; };
+		F61B2900F8914E46A2224260 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */ = {isa = PBXBuildFile; fileRef = 51C05D29878045B6920F11AD /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2E86A08410174ED3A9A0E63B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		47853DC02E164E2D8AA35C47 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		48F89DAF939549ACA07A8870 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F2B9CAC75156442EB85C9DAB /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		12D80CFC558D4983B6C5BF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B136151B3E442281B702F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F14A12AC224C21A64CC80F;
+			remoteInfo = ZERO_CHECK;
+		};
+		BBF80E8ECECA40568DDF8DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B136151B3E442281B702F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A4687646BB40F3941B4070;
+			remoteInfo = ext_tolua;
+		};
+		CCE27AC77AED4E25BC30636D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B136151B3E442281B702F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F14A12AC224C21A64CC80F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C9BACB276694672A4B5C69C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../../../ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		51C05D29878045B6920F11AD /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_to.c; path = tolua_to.c; sourceTree = SOURCE_ROOT; };
+		6FB88C42E44F458DA4F0F81C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_is.c; path = tolua_is.c; sourceTree = SOURCE_ROOT; };
+		7E645DACA263450CBD4E3452 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A79FBAC1C43E4EC593988544 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C136C1A7327A40478AA37AFD /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_map.c; path = tolua_map.c; sourceTree = SOURCE_ROOT; };
+		D42A5B4319234D50AADEBC4D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_event.c; path = tolua_event.c; sourceTree = SOURCE_ROOT; };
+		DED5EE4904404AF9A20F58CB /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_push.c; path = tolua_push.c; sourceTree = SOURCE_ROOT; };
+		EADD54809DFD4306B7FF819B /* ext_tolua */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tolua.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2557FC24753F4AA69E088E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21DB1086ED764B0BB7DB70F7 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				4CEF80C593A8440A90182D2F /* ext_tolua */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		4CEF80C593A8440A90182D2F /* ext_tolua */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA471147554BDDB5AA132F /* Source Files */,
+				EA259072B118486E8FA4C9CC /* Resources */,
+				A79FBAC1C43E4EC593988544 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */,
+			);
+			name = ext_tolua;
+			sourceTree = "<group>";
+		};
+		6C47A4AC83A3403D9643AF50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DEBC7C33BE342569396DA49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADD54809DFD4306B7FF819B /* ext_tolua */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4C78519E9A147BBBE86224F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B0A23EE8CFC147329B81AADB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A4C78519E9A147BBBE86224F /* CMake Rules */,
+				7E645DACA263450CBD4E3452 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C0EA471147554BDDB5AA132F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42A5B4319234D50AADEBC4D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */,
+				6FB88C42E44F458DA4F0F81C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */,
+				C136C1A7327A40478AA37AFD /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */,
+				DED5EE4904404AF9A20F58CB /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */,
+				51C05D29878045B6920F11AD /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EA259072B118486E8FA4C9CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C9BACB276694672A4B5C69C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F2F2B86BDD1D4512A584E252 = {
+			isa = PBXGroup;
+			children = (
+				21DB1086ED764B0BB7DB70F7 /* External */,
+				B0A23EE8CFC147329B81AADB /* ALL_BUILD */,
+				7DEBC7C33BE342569396DA49 /* Products */,
+				6C47A4AC83A3403D9643AF50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A4687646BB40F3941B4070 /* ext_tolua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5D0E27B8744D709F727632 /* Build configuration list for PBXNativeTarget "ext_tolua" */;
+			buildPhases = (
+				8DC7F339506A4949B36DBE5D /* Sources */,
+				2557FC24753F4AA69E088E59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1C0D2DECDA45C4B93BFBD2 /* PBXTargetDependency */,
+			);
+			name = ext_tolua;
+			productName = ext_tolua;
+			productReference = EADD54809DFD4306B7FF819B /* ext_tolua */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B136151B3E442281B702F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 365D730A3E704FD685D71495 /* Build configuration list for PBXProject "tolua" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				47853DC02E164E2D8AA35C47 /* Debug */,
+				F2B9CAC75156442EB85C9DAB /* Release */,
+				48F89DAF939549ACA07A8870 /* MinSizeRel */,
+				2E86A08410174ED3A9A0E63B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F2F2B86BDD1D4512A584E252;
+			projectDirPath = "../../../../../frameworks/cocos2d-x/external/lua/tolua";
+			projectRoot = "";
+			targets = (
+				A14EEE53B5744AF1BB6955A9 /* ALL_BUILD */,
+				65F14A12AC224C21A64CC80F /* ZERO_CHECK */,
+				22A4687646BB40F3941B4070 /* ext_tolua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3EFB1CD96C7D04CD2BE7C780 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua
+  make -f /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua
+  make -f /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua
+  make -f /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua
+  make -f /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B71F6F307E47C01080580445 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC7F339506A4949B36DBE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386D1BA8A82342E8B3D7A0C0 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */,
+				077E676F9E844BB096061208 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */,
+				B5BD9763860B42A3A5976E63 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */,
+				D384A9A0307D465F86545248 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */,
+				F61B2900F8914E46A2224260 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3566808BC59F4A03B3421023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A4687646BB40F3941B4070 /* ext_tolua */;
+			targetProxy = BBF80E8ECECA40568DDF8DC9 /* PBXContainerItemProxy */;
+		};
+		3F1C0D2DECDA45C4B93BFBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F14A12AC224C21A64CC80F /* ZERO_CHECK */;
+			targetProxy = CCE27AC77AED4E25BC30636D /* PBXContainerItemProxy */;
+		};
+		702878366760447A9B4964D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F14A12AC224C21A64CC80F /* ZERO_CHECK */;
+			targetProxy = 12D80CFC558D4983B6C5BF8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		081802B5BC08401083C9553B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0CBE5E7D3E9743558AB750B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0CC4FB5F762744D7827AE877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk;
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = Release;
+		};
+		24A4977507E444F4B616B26D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4394AB1FB3B5401394078EEB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4706971558844497A4E2CD3B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk;
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = MinSizeRel;
+		};
+		4D66A990220740E9AA393847 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6DA2A0ED338A4016AF33EE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk;
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = Debug;
+		};
+		7C5822D1DDBC4FF4A179316C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk;
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = RelWithDebInfo;
+		};
+		817E94CA543941D7A8BA045B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A23019FFCABB4FC69E9A7E66 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AD13ADABA9D6415EB442FFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/frameworks/cocos2d-x/external/lua/tolua/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C1BCC6A97F0F459488056C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D05589300A524A14A3B73CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E6125CF7521646D8A74CA0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E940005B7921400789ACC44A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceLua/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365D730A3E704FD685D71495 /* Build configuration list for PBXProject "tolua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA2A0ED338A4016AF33EE3A /* Debug */,
+				0CC4FB5F762744D7827AE877 /* Release */,
+				4706971558844497A4E2CD3B /* MinSizeRel */,
+				7C5822D1DDBC4FF4A179316C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A5D0E27B8744D709F727632 /* Build configuration list for PBXNativeTarget "ext_tolua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD13ADABA9D6415EB442FFDF /* Debug */,
+				0CBE5E7D3E9743558AB750B1 /* Release */,
+				4D66A990220740E9AA393847 /* MinSizeRel */,
+				24A4977507E444F4B616B26D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		60AF99A241E7475492BBD528 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817E94CA543941D7A8BA045B /* Debug */,
+				D05589300A524A14A3B73CBD /* Release */,
+				4394AB1FB3B5401394078EEB /* MinSizeRel */,
+				E940005B7921400789ACC44A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F019913D057F4B0EAC5585D5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BCC6A97F0F459488056C04 /* Debug */,
+				E6125CF7521646D8A74CA0DB /* Release */,
+				A23019FFCABB4FC69E9A7E66 /* MinSizeRel */,
+				081802B5BC08401083C9553B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B136151B3E442281B702F6 /* Project object */;
+}
